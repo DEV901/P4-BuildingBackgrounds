@@ -1,0 +1,116 @@
+body, html { 
+    margin: 0; 
+    padding: 0;
+   /* background-image: url("watch.jpg");
+    background-color: #cccccc;*/
+
+  }
+  ul {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    list-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  li {
+    float: left;
+    padding: 0 1em 0 1em;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  li a:hover {
+    text-decoration: none;
+    color: #AAA;
+  }
+  li a:visited {
+    color: white;
+    text-decoration: none;
+  }
+ 
+ 
+  .button {
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  color: white;
+  }
+  .unfixed {
+    height: 4em;
+    margin-left: 25%;
+    max-width: 50%;
+  }
+  .fixed {
+    padding-left: 25%;
+    padding-right: 25%;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 4em;
+    max-width: 100%;
+  }
+ 
+  }
+  /*set the background image*/
+  .img-src { 
+    position: absolute;
+   /* background:url(img src="img/watch.jpg") transparent;*/
+    background-size: cover;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width:100vw;
+    height:100vh;
+    
+  }
+  }
+  .content {
+    opacity: 0;
+    text-align: left;
+    padding: 40vh 0 12vh 20vw;
+    color:#fff;
+    width: 80vw;
+    
+  }
+  .p1 {
+    font-size: 35px;
+  }
+  .p2 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .second-text {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 35vh 0 40vh 25vw;
+    width: 70vw;
+  }
+  footer {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 50vh;
+    background-color: white;
+    height: 100vh;
+  }
+  .footer-content {
+    display: none;
+    text-align: center;
+    font-size: 26px;
+    background-color: black;
+  }
